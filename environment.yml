@@ -1,8 +1,13 @@
 name: evique
-channels: [conda-forge]
+
+channels:
+  - conda-forge
+  - defaults
+
 dependencies:
   - python=3.11
   - pip
+  - ffmpeg
+  - git
   - pip:
       - -r requirements.txt
-      - -r requirements-dev.txt
