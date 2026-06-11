@@ -1,0 +1,49 @@
+{
+  "group_name": "core_planner_packaging",
+  "anchor": "EVIQUE-Full",
+  "variants": [
+    {
+      "name": "EVIQUE-Full",
+      "safe_name": "EVIQUE-Full",
+      "env": {},
+      "description": "Full EVIQUE with query-aware planner and utility-aware evidence packaging."
+    },
+    {
+      "name": "EVIQUE-w/o-Planner",
+      "safe_name": "EVIQUE-w-o-Planner",
+      "env": {
+        "EVIQUE_ABLATION_DISABLE_PLANNER": "1",
+        "EVIQUE_ABLATION_FIXED_VIEW_ORDER": "scope,visual_object,visual_track,adaptive_event,visual_event"
+      },
+      "description": "Disable query-aware view planning and use a fixed view order for all queries."
+    },
+    {
+      "name": "EVIQUE-w/o-Packaging",
+      "safe_name": "EVIQUE-w-o-Packaging",
+      "env": {
+        "EVIQUE_ABLATION_DISABLE_PACKAGING": "1"
+      },
+      "description": "Disable utility-aware evidence packaging and use raw top-k evidence under the same token budget."
+    },
+    {
+      "name": "EVIQUE-FixedWindowEvent",
+      "safe_name": "EVIQUE-FixedWindowEvent",
+      "env": {
+        "EVIQUE_ABLATION_EVENT_MODE": "fixed_window",
+        "EVIQUE_ABLATION_FIXED_WINDOW_SIZE": "8",
+        "EVIQUE_ABLATION_FIXED_WINDOW_STRIDE": "4"
+      },
+      "description": "Replace adaptive/visual event evidence with fixed-window event evidence generated from existing object/track timestamps."
+    },
+    {
+      "name": "EVIQUE-w/o-Planner-Packaging",
+      "safe_name": "EVIQUE-w-o-Planner-Packaging",
+      "env": {
+        "EVIQUE_ABLATION_DISABLE_PLANNER": "1",
+        "EVIQUE_ABLATION_FIXED_VIEW_ORDER": "scope,visual_object,visual_track,adaptive_event,visual_event",
+        "EVIQUE_ABLATION_DISABLE_PACKAGING": "1"
+      },
+      "description": "Disable both query-aware planning and utility-aware packaging."
+    }
+  ]
+}
