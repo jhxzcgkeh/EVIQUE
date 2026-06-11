@@ -1,0 +1,2 @@
+release_path,source_run,source_script,dataset,query_count,method_list,evaluation_setting,judge_model,number_of_runs,winrate_mode,creation_date,checksum,paper_table_figure
+results/paper/RESULTS_README.md,not_included,n/a,n/a,n/a,n/a,source only had smoke/dry-run outputs,n/a,n/a,n/a,2026-06-11T02:04:17Z,b4bbddd785b2e99df7c59fc2d8b542a8d93aef391dbbe99076785ebffa538ab2,blocked_pending_verified_results

@@ -1,0 +1,14 @@
+{
+  "dataset": "tiny_demo",
+  "video_id": "sample_video",
+  "queries": [
+    {
+      "query_id": "dbq001",
+      "query": "Find moments where a vehicle appears near the center.",
+      "type": "object",
+      "difficulty": "smoke",
+      "gt_windows": [],
+      "gt_boxes": []
+    }
+  ]
+}
