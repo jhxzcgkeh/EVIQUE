@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "evique"
+version = "0.1.0"
+description = "EVIQUE evidence indexing, DB benchmark, and RAG artifact candidate."
+readme = "README.md"
+requires-python = ">=3.10"
+[tool.setuptools.packages.find]
+include = ["evique*", "db_benchmark*", "rag_baselines*"]
+[tool.black]
+line-length = 120
+[tool.ruff]
+line-length = 120
