@@ -1,33 +1,33 @@
 # Included Files
 
-- `evique/builder.py` from `evigraph/builder.py`: first-party source
-- `evique/cost_planner.py` from `evigraph/cost_planner.py`: first-party source
-- `evique/event_segmenter.py` from `evigraph/event_segmenter.py`: first-party source
-- `evique/evidence_packer.py` from `evigraph/evidence_packer.py`: first-party source
-- `evique/planner.py` from `evigraph/planner.py`: first-party source
-- `evique/retriever.py` from `evigraph/retriever.py`: first-party source
-- `evique/schema.py` from `evigraph/schema.py`: first-party source
-- `evique/solo_asr.py` from `evigraph/solo_asr.py`: first-party source
-- `evique/solo_caption.py` from `evigraph/solo_caption.py`: first-party source
-- `evique/solo_chunking.py` from `evigraph/solo_chunking.py`: first-party source
-- `evique/solo_video.py` from `evigraph/solo_video.py`: first-party source
-- `evique/standalone_base_builder.py` from `evigraph/standalone_base_builder.py`: first-party source
-- `evique/utils.py` from `evigraph/utils.py`: first-party source
-- `evique/video_identity.py` from `evigraph/video_identity.py`: first-party source
-- `evique/view_stats.py` from `evigraph/view_stats.py`: first-party source
-- `evique/visual_builder.py` from `evigraph/visual_builder.py`: first-party source
-- `evique/visual_compactor.py` from `evigraph/visual_compactor.py`: first-party source
-- `evique/__init__.py` from `evigraph/__init__.py`: first-party source
-- `evique/cli/build_standalone_base.py` from `evigraph/cli/build_standalone_base.py`: first-party source
-- `evique/cli/check_standalone.py` from `evigraph/cli/check_standalone.py`: first-party source
-- `evique/cli/__init__.py` from `evigraph/cli/__init__.py`: first-party source
+- `evique/builder.py` from `legacy_project/builder.py`: first-party source
+- `evique/cost_planner.py` from `legacy_project/cost_planner.py`: first-party source
+- `evique/event_segmenter.py` from `legacy_project/event_segmenter.py`: first-party source
+- `evique/evidence_packer.py` from `legacy_project/evidence_packer.py`: first-party source
+- `evique/planner.py` from `legacy_project/planner.py`: first-party source
+- `evique/retriever.py` from `legacy_project/retriever.py`: first-party source
+- `evique/schema.py` from `legacy_project/schema.py`: first-party source
+- `evique/solo_asr.py` from `legacy_project/solo_asr.py`: first-party source
+- `evique/solo_caption.py` from `legacy_project/solo_caption.py`: first-party source
+- `evique/solo_chunking.py` from `legacy_project/solo_chunking.py`: first-party source
+- `evique/solo_video.py` from `legacy_project/solo_video.py`: first-party source
+- `evique/standalone_base_builder.py` from `legacy_project/standalone_base_builder.py`: first-party source
+- `evique/utils.py` from `legacy_project/utils.py`: first-party source
+- `evique/video_identity.py` from `legacy_project/video_identity.py`: first-party source
+- `evique/view_stats.py` from `legacy_project/view_stats.py`: first-party source
+- `evique/visual_builder.py` from `legacy_project/visual_builder.py`: first-party source
+- `evique/visual_compactor.py` from `legacy_project/visual_compactor.py`: first-party source
+- `evique/__init__.py` from `legacy_project/__init__.py`: first-party source
+- `evique/cli/build_standalone_base.py` from `legacy_project/cli/build_standalone_base.py`: first-party source
+- `evique/cli/check_standalone.py` from `legacy_project/cli/check_standalone.py`: first-party source
+- `evique/cli/__init__.py` from `legacy_project/cli/__init__.py`: first-party source
 - `db_benchmark/metrics.py` from `db_benchmark/metrics.py`: first-party source
 - `db_benchmark/registry.py` from `db_benchmark/registry.py`: first-party source
 - `db_benchmark/schema.py` from `db_benchmark/schema.py`: first-party source
 - `db_benchmark/utils.py` from `db_benchmark/utils.py`: first-party source
 - `db_benchmark/__init__.py` from `db_benchmark/__init__.py`: first-party source
 - `db_benchmark/adapters/base.py` from `db_benchmark/adapters/base.py`: first-party source
-- `db_benchmark/adapters/evique_db_adapter.py` from `db_benchmark/adapters/evigraph_db_adapter.py`: first-party source
+- `db_benchmark/adapters/evique_db_adapter.py` from `db_benchmark/adapters/legacy_project_db_adapter.py`: first-party source
 - `db_benchmark/adapters/figo_adapter.py` from `db_benchmark/adapters/figo_adapter.py`: first-party source
 - `db_benchmark/adapters/groundingdino_adapter.py` from `db_benchmark/adapters/groundingdino_adapter.py`: first-party source
 - `db_benchmark/adapters/lovo_adapter.py` from `db_benchmark/adapters/lovo_adapter.py`: first-party source
@@ -58,9 +58,9 @@
 - `generate_db_rag_answers.py` from `generate_db_rag_answers.py`: root compatibility entry
 - `evaluate_db_rag_answers.py` from `evaluate_db_rag_answers.py`: root compatibility entry
 - `normalize_db_rag_queries.py` from `normalize_db_rag_queries.py`: root compatibility entry
-- `run_evique_ablation_db_rag.py` from `run_evigraph_ablation_db_rag.py`: root compatibility entry
+- `run_evique_ablation_db_rag.py` from `run_legacy_project_ablation_db_rag.py`: root compatibility entry
 - `merge_db_rag_4dataset_results.py` from `merge_db_rag_4dataset_results.py`: root compatibility entry
-- `merge_evique_ablation_results.py` from `merge_evigraph_ablation_results.py`: root compatibility entry
+- `merge_evique_ablation_results.py` from `merge_legacy_project_ablation_results.py`: root compatibility entry
 - `make_per_query_eval_table.py` from `make_per_query_eval_table.py`: root compatibility entry
 - `watch_db_rag_progress.py` from `watch_db_rag_progress.py`: root compatibility entry
 - `configs/ablation/core_planner_packaging.json` from `ablation_configs/core_planner_packaging.json`: ablation config
@@ -70,7 +70,7 @@
 - `docs/RAG_METRICS_EXPLANATION.md` from `RAG_METRICS_EXPLANATION.md`: existing docs
 - `docs/RAG_METRIC_DICTIONARY.csv` from `RAG_METRIC_DICTIONARY.csv`: existing docs
 - `docs/ABLATION_EXPERIMENT_COMMANDS.md` from `ABLATION_EXPERIMENT_COMMANDS.md`: existing docs
-- `docs/EVIQUE_EVIDENCE_PLANNING_PACKING_ARCHITECTURE.md` from `EVIGRAPH_EVIDENCE_PLANNING_PACKING_ARCHITECTURE.md`: existing docs
+- `docs/EVIQUE_EVIDENCE_PLANNING_PACKING_ARCHITECTURE.md` from `LEGACY_PROJECT_EVIDENCE_PLANNING_PACKING_ARCHITECTURE.md`: existing docs
 - `third_party/baseline_sources.csv` from `DB_Baselines/third_party_baselines/baseline_sources.csv`: metadata only
 - `third_party/baseline_fidelity_audit.csv` from `DB_Baselines/third_party_baselines/baseline_fidelity_audit.csv`: metadata only
 - `third_party/method_registry.json` from `DB_Baselines/third_party_baselines/method_registry.json`: metadata only

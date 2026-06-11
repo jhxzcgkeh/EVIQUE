@@ -1,4 +1,4 @@
-# Rename Report
+﻿# Rename Report
 
 - `evique/builder.py`: `EviGraph` -> `EVIQUE`
 - `evique/builder.py`: `EVIGRAPH_` -> `EVIQUE_`
@@ -65,13 +65,13 @@
 - `db_benchmark/adapters/vocal_adapter.py`: `DB_Baselines/third_party_baselines` -> `third_party/external`
 - `db_benchmark/adapters/zelda_adapter.py`: `DB_Baselines/baseline_adapters/paper_figo_zelda.py` -> `third_party/proxy/PROXY_POLICY.md`
 - `db_benchmark/adapters/zelda_adapter.py`: `DB_Baselines/third_party_baselines` -> `third_party/external`
-- `db_benchmark/tools/make_lava_amsterdam_auto_gt_v2.py`: `/root/autodl-tmp/Evigraph-main` -> `<repo>`
-- `db_benchmark/tools/make_lava_amsterdam_auto_gt_v2.py`: `DEFAULT_VIDEO = "/root/autodl-tmp/Dataset/LAVA/amsterdam/test/amsterdam_test.mp4"` -> `DEFAULT_VIDEO = "datasets/LAVA/amsterdam/test/amsterdam_test.mp4"`
-- `db_benchmark/tools/make_lava_amsterdam_auto_gt_v2.py`: `DEFAULT_LABEL = "/root/autodl-tmp/Dataset/LAVA/amsterdam/test/amsterdam_test_label.json"` -> `DEFAULT_LABEL = "datasets/LAVA/amsterdam/test/amsterdam_test_label.json"`
+- `db_benchmark/tools/make_lava_amsterdam_auto_gt_v2.py`: `<server-path>/Evigraph-main` -> `<repo>`
+- `db_benchmark/tools/make_lava_amsterdam_auto_gt_v2.py`: `DEFAULT_VIDEO = "<server-path>/Dataset/LAVA/amsterdam/test/amsterdam_test.mp4"` -> `DEFAULT_VIDEO = "datasets/LAVA/amsterdam/test/amsterdam_test.mp4"`
+- `db_benchmark/tools/make_lava_amsterdam_auto_gt_v2.py`: `DEFAULT_LABEL = "<server-path>/Dataset/LAVA/amsterdam/test/amsterdam_test_label.json"` -> `DEFAULT_LABEL = "datasets/LAVA/amsterdam/test/amsterdam_test_label.json"`
 - `db_benchmark/tools/make_lava_amsterdam_auto_gt_v2.py`: `EviGraph` -> `EVIQUE`
-- `db_benchmark/tools/make_lava_amsterdam_auto_gt_v3_classlevel.py`: `/root/autodl-tmp/Evigraph-main` -> `<repo>`
-- `db_benchmark/tools/make_lava_amsterdam_auto_gt_v3_classlevel.py`: `DEFAULT_VIDEO = "/root/autodl-tmp/Dataset/LAVA/amsterdam/test/amsterdam_test.mp4"` -> `DEFAULT_VIDEO = "datasets/LAVA/amsterdam/test/amsterdam_test.mp4"`
-- `db_benchmark/tools/make_lava_amsterdam_auto_gt_v3_classlevel.py`: `DEFAULT_LABEL = "/root/autodl-tmp/Dataset/LAVA/amsterdam/test/amsterdam_test_label.json"` -> `DEFAULT_LABEL = "datasets/LAVA/amsterdam/test/amsterdam_test_label.json"`
+- `db_benchmark/tools/make_lava_amsterdam_auto_gt_v3_classlevel.py`: `<server-path>/Evigraph-main` -> `<repo>`
+- `db_benchmark/tools/make_lava_amsterdam_auto_gt_v3_classlevel.py`: `DEFAULT_VIDEO = "<server-path>/Dataset/LAVA/amsterdam/test/amsterdam_test.mp4"` -> `DEFAULT_VIDEO = "datasets/LAVA/amsterdam/test/amsterdam_test.mp4"`
+- `db_benchmark/tools/make_lava_amsterdam_auto_gt_v3_classlevel.py`: `DEFAULT_LABEL = "<server-path>/Dataset/LAVA/amsterdam/test/amsterdam_test_label.json"` -> `DEFAULT_LABEL = "datasets/LAVA/amsterdam/test/amsterdam_test_label.json"`
 - `db_benchmark/tools/make_lava_lovo_metrics.py`: `evigraph` -> `evique`
 - `rag_baselines/NaiveRAG.py`: `https://api.siliconflow.cn/v1` -> `${OPENAI_BASE_URL}`
 - `rag_baselines/NaiveRAG.py`: `EviGraph` -> `EVIQUE`
@@ -82,7 +82,7 @@
 - `run_rag_comparison.py`: `RAG_BASELINES_DIR = PROJECT_ROOT / "RAG_Baselines"` -> `RAG_BASELINES_DIR = PROJECT_ROOT / "rag_baselines"`
 - `run_rag_comparison.py`: `EVIGRAPH_PACKAGE_DIR = PROJECT_ROOT / "evigraph"` -> `EVIQUE_PACKAGE_DIR = PROJECT_ROOT / "evique"`
 - `run_rag_comparison.py`: `DEFAULT_YOLO_MODEL = PROJECT_ROOT / "yolo11n.pt"` -> `DEFAULT_YOLO_MODEL = Path(os.getenv("EVIQUE_DETECTOR_MODEL", str(PROJECT_ROOT / "models" / "yolo11n.pt")))`
-- `run_rag_comparison.py`: `MODELS_ROOT = Path(os.getenv("EVIGRAPH_MODELS_ROOT", "/root/autodl-tmp/models"))` -> `MODELS_ROOT = Path(os.getenv("EVIQUE_MODELS_ROOT", str(PROJECT_ROOT / "models")))`
+- `run_rag_comparison.py`: `MODELS_ROOT = Path(os.getenv("EVIGRAPH_MODELS_ROOT", "<server-path>/models"))` -> `MODELS_ROOT = Path(os.getenv("EVIQUE_MODELS_ROOT", str(PROJECT_ROOT / "models")))`
 - `run_rag_comparison.py`: `DEFAULT_VIDEO = str(DATASET_DIR / "111Bellevue_150th_Eastgate__2017-09-10_19-08-25.mp4")` -> `DEFAULT_VIDEO = str(DATASET_DIR / "sample_video.mp4")`
 - `run_rag_comparison.py`: `EviGraph` -> `EVIQUE`
 - `run_rag_comparison.py`: `EVIGRAPH_` -> `EVIQUE_`
@@ -94,7 +94,7 @@
 - `run_db_baseline_evidence_retrieval.py`: `evigraph` -> `evique`
 - `generate_db_rag_answers.py`: `EviGraph` -> `EVIQUE`
 - `evaluate_db_rag_answers.py`: `EviGraph` -> `EVIQUE`
-- `normalize_db_rag_queries.py`: `/root/autodl-tmp/Evigraph-main` -> `<repo>`
+- `normalize_db_rag_queries.py`: `<server-path>/Evigraph-main` -> `<repo>`
 - `run_evique_ablation_db_rag.py`: `EviGraph` -> `EVIQUE`
 - `run_evique_ablation_db_rag.py`: `EVIGRAPH_` -> `EVIQUE_`
 - `run_evique_ablation_db_rag.py`: `evigraph` -> `evique`
@@ -117,9 +117,9 @@
 - `docs/DB_RAG_METRIC_DICTIONARY.csv`: `EviGraph` -> `EVIQUE`
 - `docs/RAG_METRICS_EXPLANATION.md`: `EviGraph` -> `EVIQUE`
 - `docs/RAG_METRIC_DICTIONARY.csv`: `EviGraph` -> `EVIQUE`
-- `docs/ABLATION_EXPERIMENT_COMMANDS.md`: `/root/autodl-tmp/Evigraph-main` -> `<repo>`
-- `docs/ABLATION_EXPERIMENT_COMMANDS.md`: `/root/autodl-tmp/conda_envs/videorag` -> `<conda-env>`
-- `docs/ABLATION_EXPERIMENT_COMMANDS.md`: `/root/miniconda3/bin/activate` -> `conda activate`
+- `docs/ABLATION_EXPERIMENT_COMMANDS.md`: `<server-path>/Evigraph-main` -> `<repo>`
+- `docs/ABLATION_EXPERIMENT_COMMANDS.md`: `<server-path>/conda_envs/videorag` -> `<conda-env>`
+- `docs/ABLATION_EXPERIMENT_COMMANDS.md`: `<server-conda>/bin/activate` -> `conda activate`
 - `docs/ABLATION_EXPERIMENT_COMMANDS.md`: `https://api.siliconflow.cn/v1` -> `${OPENAI_BASE_URL}`
 - `docs/ABLATION_EXPERIMENT_COMMANDS.md`: `EviGraph` -> `EVIQUE`
 - `docs/ABLATION_EXPERIMENT_COMMANDS.md`: `EVIGRAPH_` -> `EVIQUE_`
@@ -127,3 +127,4 @@
 - `docs/EVIQUE_EVIDENCE_PLANNING_PACKING_ARCHITECTURE.md`: `EviGraph` -> `EVIQUE`
 - `docs/EVIQUE_EVIDENCE_PLANNING_PACKING_ARCHITECTURE.md`: `EVIGRAPH_` -> `EVIQUE_`
 - `docs/EVIQUE_EVIDENCE_PLANNING_PACKING_ARCHITECTURE.md`: `evigraph` -> `evique`
+

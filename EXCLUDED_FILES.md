@@ -17,11 +17,11 @@
 - `__pycache__/evaluate_db_rag_answers.cpython-313.pyc`: python bytecode cache
 - `__pycache__/generate_db_rag_answers.cpython-313.pyc`: python bytecode cache
 - `__pycache__/merge_db_rag_4dataset_results.cpython-313.pyc`: python bytecode cache
-- `__pycache__/merge_evigraph_ablation_results.cpython-313.pyc`: python bytecode cache
+- `__pycache__/merge_legacy_project_ablation_results.cpython-313.pyc`: python bytecode cache
 - `__pycache__/normalize_db_rag_queries.cpython-313.pyc`: python bytecode cache
 - `__pycache__/run_db_baseline_comparison.cpython-313.pyc`: python bytecode cache
 - `__pycache__/run_db_baseline_evidence_retrieval.cpython-313.pyc`: python bytecode cache
-- `__pycache__/run_evigraph_ablation_db_rag.cpython-313.pyc`: python bytecode cache
+- `__pycache__/run_legacy_project_ablation_db_rag.cpython-313.pyc`: python bytecode cache
 - `__pycache__/run_rag_comparison.cpython-313.pyc`: python bytecode cache
 - `__pycache__/watch_db_rag_progress.cpython-313.pyc`: python bytecode cache
 - `RAG_Baselines/GraphRAG/.gitattributes`: external RAG repository or asset

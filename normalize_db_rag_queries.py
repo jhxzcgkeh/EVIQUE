@@ -13,7 +13,7 @@ DEFAULT_DATASET_CONFIGS = {
         "run": "db_rag_beach_21q_9methods_v1",
     },
     "warsaw": {
-        "video": "/root/autodl-tmp/Dataset/Beach/miris/ytstream-dataset/data/warsaw/videos/4.mp4",
+        "video": "datasets/Beach/miris/ytstream-dataset/data/warsaw/videos/4.mp4",
         "run": "db_rag_warsaw_30q_9methods_v1",
     },
     "qvhighlights": {
@@ -21,7 +21,7 @@ DEFAULT_DATASET_CONFIGS = {
         "run": "db_rag_qvhighlights_20q_9methods_v1",
     },
     "bellevue": {
-        "video": "/root/autodl-tmp/Dataset/Bellevue/111Bellevue_150th_Eastgate__2017-09-10_19-08-25.mp4",
+        "video": "datasets/Bellevue/111Bellevue_150th_Eastgate__2017-09-10_19-08-25.mp4",
         "run": "db_rag_bellevue_25q_9methods_v1",
     },
 }
