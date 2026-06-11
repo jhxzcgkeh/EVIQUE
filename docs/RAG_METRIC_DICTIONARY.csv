@@ -1,0 +1,52 @@
+table_name,column_name,metric_group,source_file_or_stage,computed_by,aggregation_level,definition,formula_or_logic,notes
+quantitative_table.csv,Model,metadata,evaluation,script aggregation,per-method,方法名,来自 answer_sources 的 model key,普通 RAG 默认包含 EVIQUE VideoRAG NaiveRAG TextVideoRAG 可扩展 LightRAG GraphRAG
+quantitative_table.csv,Comprehensiveness,answer_quality,evaluation,LLM judge or fixed baseline,per-method,答案覆盖问题全部方面和细节的程度,对所有 query 和 eval run 的 Score 求均值,NaiveRAG baseline 在无 reference answer 时固定为 3
+quantitative_table.csv,Empowerment,answer_quality,evaluation,LLM judge or fixed baseline,per-method,答案帮助读者理解和判断的程度,对所有 query 和 eval run 的 Score 求均值,NaiveRAG baseline 在无 reference answer 时固定为 3
+quantitative_table.csv,Trustworthiness,answer_quality,evaluation,LLM judge or fixed baseline,per-method,答案可信度和与证据及常识一致性的程度,对所有 query 和 eval run 的 Score 求均值,NaiveRAG baseline 在无 reference answer 时固定为 3
+quantitative_table.csv,Depth,answer_quality,evaluation,LLM judge or fixed baseline,per-method,答案是否提供深入分析而非表层信息,对所有 query 和 eval run 的 Score 求均值,NaiveRAG baseline 在无 reference answer 时固定为 3
+quantitative_table.csv,Density,answer_quality,evaluation,LLM judge or fixed baseline,per-method,答案相关信息密度和避免冗余的程度,对所有 query 和 eval run 的 Score 求均值,NaiveRAG baseline 在无 reference answer 时固定为 3
+quantitative_table.csv,Overall Score,answer_quality,evaluation,LLM judge or fixed baseline,per-method,整体答案质量分,对所有 query 和 eval run 的 Score 求均值,不是前五个维度的算术平均
+quantitative_table.csv,Queries,metadata,evaluation,script aggregation,per-method,该 method 可聚合的 score 数,各 metric score list 长度的最大值,默认 eval-runs 为 5 所以不一定等于 query 数
+winrate_table.csv,Comparison,winrate,evaluation,script aggregation,per-pair,成对比较的两个方法,格式为 model_a vs model_b,默认若无 anchor 使用预设 pair
+winrate_table.csv,Metric,winrate,evaluation,script aggregation,per-pair-per-metric,当前统计的 win-rate 维度,来自 WINRATE_METRICS,包括 Overall Winner
+winrate_table.csv,<model_a> Win Rate (%),winrate,evaluation,script aggregation,per-pair-per-metric,model_a 在该 pair 和 metric 下的胜率,model_a wins / Judgements * 100,列名随 pair 动态变化
+winrate_table.csv,<model_b> Win Rate (%),winrate,evaluation,script aggregation,per-pair-per-metric,model_b 在该 pair 和 metric 下的胜率,model_b wins / Judgements * 100,列名随 pair 动态变化
+winrate_table.csv,<model_a> Wins,winrate,evaluation,script aggregation,per-pair-per-metric,model_a 被选为 winner 的次数,统计 Answer 1/2 映射回 model_a 后的次数,包含所有 query run order
+winrate_table.csv,<model_b> Wins,winrate,evaluation,script aggregation,per-pair-per-metric,model_b 被选为 winner 的次数,统计 Answer 1/2 映射回 model_b 后的次数,包含所有 query run order
+winrate_table.csv,Judgements,winrate,evaluation,script aggregation,per-pair-per-metric,进入胜率统计的有效 judgement 数,有效 winner 总数,双向比较会把 ori 和 rev 都计入
+comparison_summary.csv,数据集,metadata,summary,script aggregation,per-method,summary 显示的数据集名称,来自 dataset_name 参数或运行推断,用于结果表标识
+comparison_summary.csv,视频时长 (min),metadata,summary,file metadata,per-dataset,输入视频总时长分钟数,load_video_metadata 的 duration_min,数据集级元数据
+comparison_summary.csv,数据集大小 (MB),metadata,summary,file metadata,per-dataset,输入视频大小 MB,load_video_metadata 的 size_mb,数据集级元数据
+comparison_summary.csv,模型名称,metadata,summary,script aggregation,per-method,方法或模型名称,model_dirs 的 key,用于按方法分组
+comparison_summary.csv,数据集基础索引构建时间 (秒),system,summary,script aggregation,per-method,共享基础索引或 EVIQUE base 构建耗时,_dataset_base_build_time_for_summary,如果没有可靠值该列可能被省略
+comparison_summary.csv,基础索引大小 (MB),system,summary,file count,per-method,共享依赖基础索引大小,file_size_mb(shared_paths),例如 VideoRAG compatible base 或 EVIQUE base
+comparison_summary.csv,方法增量索引大小 (MB),system,summary,file count,per-method,方法额外索引大小,file_size_mb(method_paths),不包括 raw video model weights answers eval cache
+comparison_summary.csv,端到端索引大小 (MB),system,summary,script aggregation,per-method,基础索引加方法增量索引大小,shared_size_mb + method_size_mb,index size policy 见代码常量
+comparison_summary.csv,平均 query 临时索引大小 (MB),system,summary,script aggregation,per-method,query-time 临时索引平均大小,_query_temp_index_size_mb(metrics),可能来自 avg_query_temp_index_size_mb 等别名
+comparison_summary.csv,平均 query 临时索引时间 (秒),system,summary,script aggregation,per-method,query-time 临时索引平均耗时,_query_temp_index_seconds(metrics),可能来自 avg_query_temp_index_seconds 等别名
+comparison_summary.csv,平均查询时间 (秒),system,summary,script aggregation,per-method,retrieval 或 query 阶段平均耗时,metrics.avg_query_time_seconds,不含 judge 时间
+comparison_summary.csv,平均准确率得分,answer_quality,summary,script aggregation,per-method,summary 使用的整体质量分,优先 quantitative_table Overall Score 否则 accuracy_scores,不是 ground-truth accuracy
+comparison_summary.csv,检索到的片段或项目数,system,summary,script aggregation,per-method,平均 retrieved count,metrics.avg_retrieved_count,不同方法项目粒度可能不同
+comparison_summary.csv,使用的支持片段或项目数,system,summary,script aggregation,per-method,平均 used count,metrics.avg_used_count,最终支持 answer 的片段或项目数
+comparison_summary.csv,使用 / 检索,system,summary,script aggregation,per-method,使用数量和检索数量的比值,avg_support_ratio 或 used / retrieved,用于衡量筛选压缩比例
+comparison_summary.csv,最终证据包平均大小 (字符),system,summary,script aggregation,per-method,最终 evidence/context 平均字符数,metrics.avg_evidence_chars,answer generation 上下文规模
+comparison_summary.csv,LLM 输入 tokens 平均估计值,system,summary,token estimator,per-method,answer LLM 输入 token 估计均值,metrics.avg_llm_input_tokens_estimate,不是 judge token
+comparison_summary.csv,答案文件,metadata,summary,file path,per-method,method answer 目录,model_dir path,用于定位输出
+comparison_summary.csv,准确率文件,metadata,summary,file path,per-method,quantitative table 路径,accuracy_file path exists 时输出,通常为 evaluation/quantitative_table.csv
+generation_metrics.json,model,metadata,answer generation,script aggregation,per-method,方法名,aggregate_generation_metrics 参数,raw JSON 字段
+generation_metrics.json,index_build_time_seconds,system,indexing,script timing,per-method,方法索引构建耗时,各 method 写入或聚合,与基础索引耗时可能需要拆分
+generation_metrics.json,index_size_mb,system,indexing,file count,per-method,legacy 索引大小 MB,传入 aggregate_generation_metrics,summary 会进一步拆分
+generation_metrics.json,method_specific_index_size_mb,system,indexing,file count,per-method,方法专属索引大小,compute_query_index_size_metrics,不含共享依赖
+generation_metrics.json,shared_dependency_index_size_mb,system,indexing,file count,per-method,共享依赖索引大小,compute_query_index_size_metrics,多个方法可共享
+generation_metrics.json,end_to_end_query_index_size_mb,system,indexing,script aggregation,per-method,端到端 query index size,method_specific + shared_dependency,用于 summary
+generation_metrics.json,index_size_policy,metadata,indexing,script metadata,per-method,索引大小统计策略,INDEX_SIZE_POLICY,排除 raw video model weights answers eval cache
+generation_metrics.json,avg_query_time_seconds,system,answer generation,script aggregation,per-method,query/retrieval 平均耗时,mean query_time_seconds,不含 judge
+generation_metrics.json,avg_evidence_chars,system,answer generation,script aggregation,per-method,最终 evidence 平均字符数,mean evidence_chars,上下文规模
+generation_metrics.json,avg_llm_input_tokens_estimate,system,answer generation,token estimator,per-method,answer LLM 输入 token 估计均值,mean llm_input_tokens_estimate,估计值
+generation_metrics.json,avg_retrieved_count,system,answer generation,script aggregation,per-method,平均检索项目数,mean retrieved_count,不同方法项目定义不同
+generation_metrics.json,avg_used_count,system,answer generation,script aggregation,per-method,平均使用项目数,mean used_count,最终支持 answer 的项目数
+generation_metrics.json,avg_support_ratio,system,answer generation,script aggregation,per-method,平均使用检索比,mean support_ratio,若缺失 summary 可用 used/retrieved 派生
+generation_metrics.json,metric_source_counts,metadata,answer generation,script aggregation,per-method,retrieval metric 来源计数,value_counts(metric_source),用于判断 metric 是否可用或为派生值
+raw_json,quantitative_judgements.json,raw_judgement,evaluation,LLM judge or fixed baseline,per-answer-run,quantitative 原始 judgement,key 为 query_id::model::runN value 为 metric Score Explanation,普通 RAG 默认 NaiveRAG 固定 Score 3
+raw_json,winrate_judgements.json,raw_judgement,evaluation,LLM judge,per-pair-query-run-order,win-rate 原始 judgement,key 为 query_id::model_a::vs::model_b::runN::order value 为 metric Winner Explanation,order 为 ori 或 rev
+raw_json,comparison_config.json,metadata,run config,script metadata,per-run,实验配置和 protocol 元数据,由 run_rag_comparison 写出,记录 selected models judge model chunking frame count base mode 等
