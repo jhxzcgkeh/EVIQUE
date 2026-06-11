@@ -1,0 +1,77 @@
+# Included Files
+
+- `evique/builder.py` from `evigraph/builder.py`: first-party source
+- `evique/cost_planner.py` from `evigraph/cost_planner.py`: first-party source
+- `evique/event_segmenter.py` from `evigraph/event_segmenter.py`: first-party source
+- `evique/evidence_packer.py` from `evigraph/evidence_packer.py`: first-party source
+- `evique/planner.py` from `evigraph/planner.py`: first-party source
+- `evique/retriever.py` from `evigraph/retriever.py`: first-party source
+- `evique/schema.py` from `evigraph/schema.py`: first-party source
+- `evique/solo_asr.py` from `evigraph/solo_asr.py`: first-party source
+- `evique/solo_caption.py` from `evigraph/solo_caption.py`: first-party source
+- `evique/solo_chunking.py` from `evigraph/solo_chunking.py`: first-party source
+- `evique/solo_video.py` from `evigraph/solo_video.py`: first-party source
+- `evique/standalone_base_builder.py` from `evigraph/standalone_base_builder.py`: first-party source
+- `evique/utils.py` from `evigraph/utils.py`: first-party source
+- `evique/video_identity.py` from `evigraph/video_identity.py`: first-party source
+- `evique/view_stats.py` from `evigraph/view_stats.py`: first-party source
+- `evique/visual_builder.py` from `evigraph/visual_builder.py`: first-party source
+- `evique/visual_compactor.py` from `evigraph/visual_compactor.py`: first-party source
+- `evique/__init__.py` from `evigraph/__init__.py`: first-party source
+- `evique/cli/build_standalone_base.py` from `evigraph/cli/build_standalone_base.py`: first-party source
+- `evique/cli/check_standalone.py` from `evigraph/cli/check_standalone.py`: first-party source
+- `evique/cli/__init__.py` from `evigraph/cli/__init__.py`: first-party source
+- `db_benchmark/metrics.py` from `db_benchmark/metrics.py`: first-party source
+- `db_benchmark/registry.py` from `db_benchmark/registry.py`: first-party source
+- `db_benchmark/schema.py` from `db_benchmark/schema.py`: first-party source
+- `db_benchmark/utils.py` from `db_benchmark/utils.py`: first-party source
+- `db_benchmark/__init__.py` from `db_benchmark/__init__.py`: first-party source
+- `db_benchmark/adapters/base.py` from `db_benchmark/adapters/base.py`: first-party source
+- `db_benchmark/adapters/evique_db_adapter.py` from `db_benchmark/adapters/evigraph_db_adapter.py`: first-party source
+- `db_benchmark/adapters/figo_adapter.py` from `db_benchmark/adapters/figo_adapter.py`: first-party source
+- `db_benchmark/adapters/groundingdino_adapter.py` from `db_benchmark/adapters/groundingdino_adapter.py`: first-party source
+- `db_benchmark/adapters/lovo_adapter.py` from `db_benchmark/adapters/lovo_adapter.py`: first-party source
+- `db_benchmark/adapters/miris_adapter.py` from `db_benchmark/adapters/miris_adapter.py`: first-party source
+- `db_benchmark/adapters/otif_adapter.py` from `db_benchmark/adapters/otif_adapter.py`: first-party source
+- `db_benchmark/adapters/sieve_adapter.py` from `db_benchmark/adapters/sieve_adapter.py`: first-party source
+- `db_benchmark/adapters/third_party_proxy_adapter.py` from `db_benchmark/adapters/third_party_proxy_adapter.py`: first-party source
+- `db_benchmark/adapters/umt_adapter.py` from `db_benchmark/adapters/umt_adapter.py`: first-party source
+- `db_benchmark/adapters/unsupported_adapter.py` from `db_benchmark/adapters/unsupported_adapter.py`: first-party source
+- `db_benchmark/adapters/visa_adapter.py` from `db_benchmark/adapters/visa_adapter.py`: first-party source
+- `db_benchmark/adapters/vocal_adapter.py` from `db_benchmark/adapters/vocal_adapter.py`: first-party source
+- `db_benchmark/adapters/zelda_adapter.py` from `db_benchmark/adapters/zelda_adapter.py`: first-party source
+- `db_benchmark/adapters/__init__.py` from `db_benchmark/adapters/__init__.py`: first-party source
+- `db_benchmark/tools/make_db_tables.py` from `db_benchmark/tools/make_db_tables.py`: first-party source
+- `db_benchmark/tools/make_lava_amsterdam_auto_gt_v2.py` from `db_benchmark/tools/make_lava_amsterdam_auto_gt_v2.py`: first-party source
+- `db_benchmark/tools/make_lava_amsterdam_auto_gt_v3_classlevel.py` from `db_benchmark/tools/make_lava_amsterdam_auto_gt_v3_classlevel.py`: first-party source
+- `db_benchmark/tools/make_lava_lovo_metrics.py` from `db_benchmark/tools/make_lava_lovo_metrics.py`: first-party source
+- `db_benchmark/tools/make_query_template.py` from `db_benchmark/tools/make_query_template.py`: first-party source
+- `db_benchmark/tools/validate_db_results.py` from `db_benchmark/tools/validate_db_results.py`: first-party source
+- `db_benchmark/tools/__init__.py` from `db_benchmark/tools/__init__.py`: first-party source
+- `db_benchmark/adapters/miris_format_converter.py` from `DB_Baselines/adapters/miris_format_converter.py`: MIRIS converter
+- `rag_baselines/NaiveRAG.py` from `RAG_Baselines/NaiveRAG.py`: local RAG helper
+- `rag_baselines/TextVideoRAG.py` from `RAG_Baselines/TextVideoRAG.py`: local RAG helper
+- `db_rag_pipeline_common.py` from `db_rag_pipeline_common.py`: root compatibility entry
+- `run_rag_comparison.py` from `run_rag_comparison.py`: root compatibility entry
+- `run_db_baseline_comparison.py` from `run_db_baseline_comparison.py`: root compatibility entry
+- `run_db_baseline_evidence_retrieval.py` from `run_db_baseline_evidence_retrieval.py`: root compatibility entry
+- `generate_db_rag_answers.py` from `generate_db_rag_answers.py`: root compatibility entry
+- `evaluate_db_rag_answers.py` from `evaluate_db_rag_answers.py`: root compatibility entry
+- `normalize_db_rag_queries.py` from `normalize_db_rag_queries.py`: root compatibility entry
+- `run_evique_ablation_db_rag.py` from `run_evigraph_ablation_db_rag.py`: root compatibility entry
+- `merge_db_rag_4dataset_results.py` from `merge_db_rag_4dataset_results.py`: root compatibility entry
+- `merge_evique_ablation_results.py` from `merge_evigraph_ablation_results.py`: root compatibility entry
+- `make_per_query_eval_table.py` from `make_per_query_eval_table.py`: root compatibility entry
+- `watch_db_rag_progress.py` from `watch_db_rag_progress.py`: root compatibility entry
+- `configs/ablation/core_planner_packaging.json` from `ablation_configs/core_planner_packaging.json`: ablation config
+- `configs/ablation/view_leave_one_out.json` from `ablation_configs/view_leave_one_out.json`: ablation config
+- `docs/DB_RAG_METRICS_EXPLANATION.md` from `DB_RAG_METRICS_EXPLANATION.md`: existing docs
+- `docs/DB_RAG_METRIC_DICTIONARY.csv` from `DB_RAG_METRIC_DICTIONARY.csv`: existing docs
+- `docs/RAG_METRICS_EXPLANATION.md` from `RAG_METRICS_EXPLANATION.md`: existing docs
+- `docs/RAG_METRIC_DICTIONARY.csv` from `RAG_METRIC_DICTIONARY.csv`: existing docs
+- `docs/ABLATION_EXPERIMENT_COMMANDS.md` from `ABLATION_EXPERIMENT_COMMANDS.md`: existing docs
+- `docs/EVIQUE_EVIDENCE_PLANNING_PACKING_ARCHITECTURE.md` from `EVIGRAPH_EVIDENCE_PLANNING_PACKING_ARCHITECTURE.md`: existing docs
+- `third_party/baseline_sources.csv` from `DB_Baselines/third_party_baselines/baseline_sources.csv`: metadata only
+- `third_party/baseline_fidelity_audit.csv` from `DB_Baselines/third_party_baselines/baseline_fidelity_audit.csv`: metadata only
+- `third_party/method_registry.json` from `DB_Baselines/third_party_baselines/method_registry.json`: metadata only
+- `third_party/BASELINE_FIDELITY_AUDIT.md` from `DB_Baselines/third_party_baselines/BASELINE_FIDELITY_AUDIT.md`: metadata only
