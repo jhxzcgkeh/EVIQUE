@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: EVIQUE
+type: software
+message: Please update authors, DOI, and paper metadata before release.
+authors:
+  - family-names: TODO
+    given-names: TODO
+repository-code: https://github.com/TODO/EVIQUE
+license: NOASSERTION

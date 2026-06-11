@@ -1,0 +1,113 @@
+{
+  "updated": "2026-06-04",
+  "fidelity_levels": {
+    "official": "Official source code is present locally. It still needs a method-specific environment adapter before entering the main benchmark.",
+    "reimpl": "No confirmed official code is present; local implementation follows the paper-level pipeline and must document missing pieces.",
+    "proxy": "Executable approximation declared by third_party_baselines. It may enter the LOVO-style DB main table only when implementation_fidelity clearly marks proxy status and predictions are status=ok temporal windows."
+  },
+  "main_methods": [
+    {
+      "method": "LOVO",
+      "local_modes": ["LOVO_current_only", "LOVO_history_concat"],
+      "fidelity": "local_reproduction",
+      "code_dir": "src/lovo_baseline",
+      "adapter_status": "proxy_runnable",
+      "main_figure_allowed": true
+    },
+    {
+      "method": "SIEVE",
+      "local_modes": ["SIEVE_no_offset", "SIEVE_offset_v2"],
+      "fidelity": "ours",
+      "code_dir": "src/session_method",
+      "adapter_status": "integrated",
+      "main_figure_allowed": false
+    }
+  ],
+  "third_party_methods": [
+    {
+      "method": "VOCAL",
+      "paper_name": "EQUI-VOCAL",
+      "fidelity": "official",
+      "code_dir": "third_party_baselines/official/VOCAL_EquiVOCAL/EQUI-VOCAL-main",
+      "integration_doc": "third_party_baselines/official/VOCAL_EquiVOCAL/INTEGRATION_STATUS.md",
+      "proxy_adapter": "db_benchmark/adapters/vocal_adapter.py:VOCALProxyAdapter",
+      "adapter_status": "proxy_runnable",
+      "main_figure_allowed": true
+    },
+    {
+      "method": "MIRIS",
+      "paper_name": "MIRIS: Fast Object Track Queries in Video",
+      "fidelity": "official",
+      "code_dir": "third_party_baselines/official/MIRIS/miris-master",
+      "integration_doc": "third_party_baselines/official/MIRIS/INTEGRATION_STATUS.md",
+      "proxy_adapter": "db_benchmark/adapters/miris_adapter.py:MIRISProxyAdapter",
+      "adapter_status": "proxy_runnable",
+      "main_figure_allowed": true
+    },
+    {
+      "method": "UMT",
+      "paper_name": "Unified Multi-modal Transformers",
+      "fidelity": "official",
+      "code_dir": "third_party_baselines/official/UMT/UMT-main",
+      "integration_doc": "third_party_baselines/official/UMT/INTEGRATION_STATUS.md",
+      "proxy_adapter": "db_benchmark/adapters/umt_adapter.py:UMTProxyAdapter",
+      "adapter_status": "proxy_runnable",
+      "main_figure_allowed": true
+    },
+    {
+      "method": "VISA",
+      "paper_name": "VideoLISA / VISA label in LOVO paper",
+      "fidelity": "official",
+      "code_dir": "third_party_baselines/official/VISA_VideoLISA/VideoLISA-main",
+      "integration_doc": "third_party_baselines/official/VISA_VideoLISA/INTEGRATION_STATUS.md",
+      "proxy_adapter": "db_benchmark/adapters/visa_adapter.py:VISAProxyAdapter",
+      "adapter_status": "proxy_runnable",
+      "main_figure_allowed": true
+    },
+    {
+      "method": "FiGO",
+      "paper_name": "Fine-Grained Query Optimization in Video Analytics",
+      "fidelity": "reimpl",
+      "code_dir": "third_party_baselines/reimpl/FiGO",
+      "validation_doc": "third_party_baselines/reimpl/FiGO/VALIDATION.md",
+      "adapter": "db_benchmark/adapters/figo_adapter.py:FiGOAdapter",
+      "adapter_status": "local_reimplementation_proxy_runnable",
+      "main_figure_allowed": true
+    },
+    {
+      "method": "ZELDA",
+      "paper_name": "Zelda: Video Analytics using Vision-Language Models",
+      "fidelity": "reimpl",
+      "code_dir": "third_party_baselines/reimpl/ZELDA",
+      "validation_doc": "third_party_baselines/reimpl/ZELDA/VALIDATION.md",
+      "adapter": "db_benchmark/adapters/zelda_adapter.py:ZELDAAdapter",
+      "adapter_status": "local_reimplementation_proxy_runnable",
+      "main_figure_allowed": true
+    },
+    {
+      "method": "OTIF",
+      "paper_name": "OTIF: Efficient Tracker Pre-processing over Large Video Datasets",
+      "fidelity": "official",
+      "code_dir": "third_party_baselines/official/OTIF/otif-master",
+      "proxy_adapter": "db_benchmark/adapters/otif_adapter.py:OTIFProxyAdapter",
+      "adapter_status": "proxy_runnable",
+      "main_figure_allowed": true
+    },
+    {
+      "method": "VOCALExplore",
+      "paper_name": "VOCALExplore",
+      "fidelity": "reimpl",
+      "code_dir": "third_party_baselines/reimpl/VOCALExplore",
+      "adapter_status": "not_integrated",
+      "main_figure_allowed": false
+    }
+  ],
+  "support_methods": [
+    {
+      "method": "GroundingDINO",
+      "fidelity": "official",
+      "code_dir": "third_party_baselines/official/GroundingDINO/GroundingDINO-main",
+      "role": "detector/visualization support"
+    }
+  ]
+}

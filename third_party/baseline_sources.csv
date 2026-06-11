@@ -1,0 +1,10 @@
+method,lovo_label,category,code_status,code_url,paper_url,local_placement,notes
+EQUI-VOCAL,VOCAL,QA-index,open_source_confirmed,https://github.com/uwdb/EQUI-VOCAL,https://arxiv.org/abs/2301.00929,third_party_baselines/official/VOCAL_EquiVOCAL/,LOVO groups VOCAL as scene-graph QA-index methods.
+VOCALExplore,VOCAL,QA-index,no_confirmed_official_code,,https://www.vldb.org/pvldb/vol15/p4005-zhang.pdf,third_party_baselines/reimpl/VOCALExplore/,Keep only if we need to reproduce the older VOCALExplore paper.
+MIRIS,MIRIS,QD-search,open_source_confirmed,https://github.com/favyen/miris,https://favyen.com/miris/,third_party_baselines/official/MIRIS/,Go plus Python implementation; old dependencies.
+FiGO,FiGO,QD-search,no_confirmed_official_code,,https://dl.acm.org/doi/abs/10.1145/3514221.3517857,third_party_baselines/reimpl/FiGO/,Likely needs local approximation from paper.
+ZELDA,ZELDA,vision-language / frame retrieval,no_confirmed_official_code,,https://arxiv.org/abs/2305.03785,third_party_baselines/reimpl/ZELDA/,Can be approximated locally with CLIP frame embeddings and query ranking.
+UMT,UMT,end-to-end moment retrieval,open_source_confirmed,https://github.com/TencentARC/UMT,https://arxiv.org/abs/2203.12745,third_party_baselines/official/UMT/,Official TencentARC implementation.
+VideoLISA,VISA,video reasoning segmentation,open_source_confirmed,https://github.com/showlab/VideoLISA,https://arxiv.org/abs/2409.19603,third_party_baselines/official/VISA_VideoLISA/,LOVO labels this baseline VISA but reference 48 is VideoLISA; exact VISA acronym repo can be tracked separately if needed.
+OTIF,OTIF,tracking/preprocessing reference,open_source_confirmed,https://github.com/favyen/otif,https://favyen.com/otif/,third_party_baselines/official/OTIF/,Not a main Fig.6 baseline label but useful related comparison.
+GroundingDINO,DINO,open-set detection reference,open_source_confirmed,https://github.com/IDEA-Research/GroundingDINO,https://arxiv.org/abs/2303.05499,third_party_baselines/official/GroundingDINO/,Use as detector/visualization support rather than full LOVO baseline.
