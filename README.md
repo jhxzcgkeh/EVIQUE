@@ -1,19 +1,6 @@
-<div align="center">
-
 # EVIQUE
 
-### Utility-Aware Evidence Construction for Grounded Answering over Large-Scale Video Databases
-
-[![Repository](https://img.shields.io/badge/GitHub-EVIQUE-181717?logo=github)](https://github.com/jhxzcgkeh/EVIQUE)
-[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Release](https://img.shields.io/badge/Release-Initial_Public_Code-orange)](RELEASE_NOTES.md)
-
-**Compact, connected, and traceable video evidence for grounded answer generation**
-
-</div>
-
----
+**EVIQUE: Utility-Aware Evidence Construction for Grounded Answering over Large-Scale Video Databases**
 
 ## Overview
 
