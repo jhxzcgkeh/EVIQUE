@@ -1,3 +1,3 @@
-# Third-Party Policy
+# Third Party
 
-Only metadata, version locks, and proxy policy are included. Complete external repositories are not vendored.
+Complete VideoRAG, GraphRAG, LightRAG, ImageBind, and other third-party source trees are not redistributed. Install them from official repositories when reproducing baseline runs.

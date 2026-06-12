@@ -1,0 +1,517 @@
+{
+  "schema_version": "1.0",
+  "dataset": "Warsaw",
+  "query_count": 30,
+  "queries": [
+    {
+      "query_id": "warsaw_001",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Find and describe a moment where a yellow city bus passes through the lower intersection while multiple cars are nearby.",
+      "metadata": {
+        "original_index": 0,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Find and describe a moment where a yellow city bus passes through the lower intersection while multiple cars are nearby."
+        },
+        "raw_line": "Find and describe a moment where a yellow city bus passes through the lower intersection while multiple cars are nearby.",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_002",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Find and describe a moment where two yellow buses are visible at the same time, and explain their relative positions.",
+      "metadata": {
+        "original_index": 1,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Find and describe a moment where two yellow buses are visible at the same time, and explain their relative positions."
+        },
+        "raw_line": "Find and describe a moment where two yellow buses are visible at the same time, and explain their relative positions.",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_003",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Find and describe a moment where a bus is moving across the scene while cars continue moving in a different direction.",
+      "metadata": {
+        "original_index": 2,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Find and describe a moment where a bus is moving across the scene while cars continue moving in a different direction."
+        },
+        "raw_line": "Find and describe a moment where a bus is moving across the scene while cars continue moving in a different direction.",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_004",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Find and describe a moment where a white or light-colored truck or van appears among smaller cars near the intersection.",
+      "metadata": {
+        "original_index": 3,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Find and describe a moment where a white or light-colored truck or van appears among smaller cars near the intersection."
+        },
+        "raw_line": "Find and describe a moment where a white or light-colored truck or van appears among smaller cars near the intersection.",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_005",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Find and describe a moment where a red car is visible among gray or dark vehicles, and explain where it is in the road layout.",
+      "metadata": {
+        "original_index": 4,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Find and describe a moment where a red car is visible among gray or dark vehicles, and explain where it is in the road layout."
+        },
+        "raw_line": "Find and describe a moment where a red car is visible among gray or dark vehicles, and explain where it is in the road layout.",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_006",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Find and describe a moment where pedestrians are visible near the lower roadside or crossing area while vehicles move nearby.",
+      "metadata": {
+        "original_index": 5,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Find and describe a moment where pedestrians are visible near the lower roadside or crossing area while vehicles move nearby."
+        },
+        "raw_line": "Find and describe a moment where pedestrians are visible near the lower roadside or crossing area while vehicles move nearby.",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_007",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Find and describe a moment where a traffic light is visible together with vehicles entering the middle of the road.",
+      "metadata": {
+        "original_index": 6,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Find and describe a moment where a traffic light is visible together with vehicles entering the middle of the road."
+        },
+        "raw_line": "Find and describe a moment where a traffic light is visible together with vehicles entering the middle of the road.",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_008",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Find and describe a moment where a line of cars forms on one side of the intersection.",
+      "metadata": {
+        "original_index": 7,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Find and describe a moment where a line of cars forms on one side of the intersection."
+        },
+        "raw_line": "Find and describe a moment where a line of cars forms on one side of the intersection.",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_009",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "When a yellow bus is near the lower part of the intersection, which nearby cars are closest to it and how are they positioned?",
+      "metadata": {
+        "original_index": 8,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "When a yellow bus is near the lower part of the intersection, which nearby cars are closest to it and how are they positioned?"
+        },
+        "raw_line": "When a yellow bus is near the lower part of the intersection, which nearby cars are closest to it and how are they positioned?",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_010",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "When two buses appear close to each other, are they side by side, following the same direction, or separated by lanes?",
+      "metadata": {
+        "original_index": 9,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "When two buses appear close to each other, are they side by side, following the same direction, or separated by lanes?"
+        },
+        "raw_line": "When two buses appear close to each other, are they side by side, following the same direction, or separated by lanes?",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_011",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "When a truck or van appears near the center of the road, what smaller vehicles are beside it or immediately around it?",
+      "metadata": {
+        "original_index": 10,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "When a truck or van appears near the center of the road, what smaller vehicles are beside it or immediately around it?"
+        },
+        "raw_line": "When a truck or van appears near the center of the road, what smaller vehicles are beside it or immediately around it?",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_012",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "When a red car appears in the traffic stream, what vehicles are nearest to it and do they move in the same or different directions?",
+      "metadata": {
+        "original_index": 11,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "When a red car appears in the traffic stream, what vehicles are nearest to it and do they move in the same or different directions?"
+        },
+        "raw_line": "When a red car appears in the traffic stream, what vehicles are nearest to it and do they move in the same or different directions?",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_013",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "When a group of cars occupies the middle region, are the nearest vehicles mostly side by side, queued, or crossing paths?",
+      "metadata": {
+        "original_index": 12,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "When a group of cars occupies the middle region, are the nearest vehicles mostly side by side, queued, or crossing paths?"
+        },
+        "raw_line": "When a group of cars occupies the middle region, are the nearest vehicles mostly side by side, queued, or crossing paths?",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_014",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Where are pedestrians positioned relative to moving vehicles when they appear near the road?",
+      "metadata": {
+        "original_index": 13,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Where are pedestrians positioned relative to moving vehicles when they appear near the road?"
+        },
+        "raw_line": "Where are pedestrians positioned relative to moving vehicles when they appear near the road?",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_015",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "How are buses, cars, and trucks distributed between the lower road and the road near the overpass in a busy moment?",
+      "metadata": {
+        "original_index": 14,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "How are buses, cars, and trucks distributed between the lower road and the road near the overpass in a busy moment?"
+        },
+        "raw_line": "How are buses, cars, and trucks distributed between the lower road and the road near the overpass in a busy moment?",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_016",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "When a bus crosses the lower road, what is happening to the cars on the adjacent lanes?",
+      "metadata": {
+        "original_index": 15,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "When a bus crosses the lower road, what is happening to the cars on the adjacent lanes?"
+        },
+        "raw_line": "When a bus crosses the lower road, what is happening to the cars on the adjacent lanes?",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_017",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "When several cars are close together, can the video distinguish normal lane proximity from an actual interaction or merge?",
+      "metadata": {
+        "original_index": 16,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "When several cars are close together, can the video distinguish normal lane proximity from an actual interaction or merge?"
+        },
+        "raw_line": "When several cars are close together, can the video distinguish normal lane proximity from an actual interaction or merge?",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_018",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "How does the traffic pattern change after a yellow bus enters the middle region of the intersection?",
+      "metadata": {
+        "original_index": 17,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "How does the traffic pattern change after a yellow bus enters the middle region of the intersection?"
+        },
+        "raw_line": "How does the traffic pattern change after a yellow bus enters the middle region of the intersection?",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_019",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Describe the sequence of vehicles entering the middle of the intersection during a busy interval with cars and buses.",
+      "metadata": {
+        "original_index": 18,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Describe the sequence of vehicles entering the middle of the intersection during a busy interval with cars and buses."
+        },
+        "raw_line": "Describe the sequence of vehicles entering the middle of the intersection during a busy interval with cars and buses.",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_020",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "What happens before and after a truck or van moves into the central traffic area?",
+      "metadata": {
+        "original_index": 19,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "What happens before and after a truck or van moves into the central traffic area?"
+        },
+        "raw_line": "What happens before and after a truck or van moves into the central traffic area?",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_021",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "How does the scene progress from a bus-dominant moment to a car-dominant moment?",
+      "metadata": {
+        "original_index": 20,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "How does the scene progress from a bus-dominant moment to a car-dominant moment?"
+        },
+        "raw_line": "How does the scene progress from a bus-dominant moment to a car-dominant moment?",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_022",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "How does the traffic flow change when a cluster of cars starts moving through the intersection one after another?",
+      "metadata": {
+        "original_index": 21,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "How does the traffic flow change when a cluster of cars starts moving through the intersection one after another?"
+        },
+        "raw_line": "How does the traffic flow change when a cluster of cars starts moving through the intersection one after another?",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_023",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Describe a short event chain where a bus passes, cars fill the intersection, and another vehicle group follows.",
+      "metadata": {
+        "original_index": 22,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Describe a short event chain where a bus passes, cars fill the intersection, and another vehicle group follows."
+        },
+        "raw_line": "Describe a short event chain where a bus passes, cars fill the intersection, and another vehicle group follows.",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_024",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Can the video show a transition from lighter traffic to heavier congestion? Describe the visual evidence.",
+      "metadata": {
+        "original_index": 23,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Can the video show a transition from lighter traffic to heavier congestion? Describe the visual evidence."
+        },
+        "raw_line": "Can the video show a transition from lighter traffic to heavier congestion? Describe the visual evidence.",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_025",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Which moments contain the clearest bus-car interaction evidence, and what makes the evidence clear?",
+      "metadata": {
+        "original_index": 24,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Which moments contain the clearest bus-car interaction evidence, and what makes the evidence clear?"
+        },
+        "raw_line": "Which moments contain the clearest bus-car interaction evidence, and what makes the evidence clear?",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_026",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Which moments contain the clearest pedestrian-vehicle co-occurrence evidence, and can we infer interaction or only proximity?",
+      "metadata": {
+        "original_index": 25,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Which moments contain the clearest pedestrian-vehicle co-occurrence evidence, and can we infer interaction or only proximity?"
+        },
+        "raw_line": "Which moments contain the clearest pedestrian-vehicle co-occurrence evidence, and can we infer interaction or only proximity?",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_027",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Can the video determine whether a bus and nearby cars are interacting, or only that they are close together? Use visual evidence.",
+      "metadata": {
+        "original_index": 26,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Can the video determine whether a bus and nearby cars are interacting, or only that they are close together? Use visual evidence."
+        },
+        "raw_line": "Can the video determine whether a bus and nearby cars are interacting, or only that they are close together? Use visual evidence.",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_028",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Find a moment where a yellow bus, several cars, and at least one larger vehicle are all visible; describe their layout and motion.",
+      "metadata": {
+        "original_index": 27,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Find a moment where a yellow bus, several cars, and at least one larger vehicle are all visible; describe their layout and motion."
+        },
+        "raw_line": "Find a moment where a yellow bus, several cars, and at least one larger vehicle are all visible; describe their layout and motion.",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_029",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Find and describe a moment where a vehicle enters the center while another vehicle is immediately to its left or right.",
+      "metadata": {
+        "original_index": 28,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Find and describe a moment where a vehicle enters the center while another vehicle is immediately to its left or right."
+        },
+        "raw_line": "Find and describe a moment where a vehicle enters the center while another vehicle is immediately to its left or right.",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "warsaw_030",
+      "dataset": "Warsaw",
+      "video_id": "warsaw",
+      "query": "Which moment best demonstrates multi-object interaction among cars, buses, and trucks, and what evidence supports it?",
+      "metadata": {
+        "original_index": 29,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "Which moment best demonstrates multi-object interaction among cars, buses, and trucks, and what evidence supports it?"
+        },
+        "raw_line": "Which moment best demonstrates multi-object interaction among cars, buses, and trucks, and what evidence supports it?",
+        "generated_query_id": true,
+        "video_id_source": "dataset_default"
+      }
+    }
+  ]
+}

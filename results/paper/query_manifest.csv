@@ -1,0 +1,5 @@
+dataset,expected_query_count,current_query_count,video_count,status,query_file,schema_version,sha256,notes
+Warsaw,30,30,1,ready,data/queries/warsaw.json,1.0,9b71cf8e0809062e890434bedd89cd266213e35c5525bf69184ce2afd9bc3dd2,
+Bellevue,25,25,1,ready,data/queries/bellevue.json,1.0,664936b17ff2be7d87d06a81a847325d3ca17ae22958c22558721c2454432614,
+QVHighlights,20,20,0,missing_video_id,data/queries/qvhighlights.json,1.0,40b86cf6cc92c5945709f19f6e76a7730f70c1a60a90f9e0aed2ae769a7324a4,20 records missing per-query video_id; 15 source videos found in qvhighlights_videos_reupload.tar.gz but no query-to-video mapping
+Beach,21,21,1,ready,data/queries/beach.json,1.0,0df471c88d18c82e8ff5b4d0e10a632ba10165ee77fa39e0d76fda8e08b884b2,

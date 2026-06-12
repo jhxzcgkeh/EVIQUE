@@ -1,2 +1,0 @@
-"""DB benchmark adapter implementations."""
-

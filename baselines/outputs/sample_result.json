@@ -1,0 +1,13 @@
+{
+  "dataset": "example",
+  "query_id": "example_001",
+  "video_id": "example_video",
+  "method": "VideoRAG",
+  "answer": "A compact baseline answer example.",
+  "evidence": [],
+  "runtime": null,
+  "input_tokens": null,
+  "metadata": {
+    "source": "format example only"
+  }
+}

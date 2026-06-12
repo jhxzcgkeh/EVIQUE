@@ -1,0 +1,7 @@
+variants:
+  - {name: full, disable_views: []}
+  - {name: no_scope, disable_views: [scope]}
+  - {name: no_target, disable_views: [target]}
+  - {name: no_track, disable_views: [track]}
+  - {name: no_event, disable_views: [event, adaptive_event]}
+  - {name: fixed_window_event, event_mode: fixed_window}

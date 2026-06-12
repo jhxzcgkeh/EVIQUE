@@ -1,0 +1,364 @@
+{
+  "schema_version": "1.0",
+  "dataset": "Beach",
+  "query_count": 21,
+  "queries": [
+    {
+      "query_id": "beach_q01",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "A cyclist riding across the wooden boardwalk.",
+      "metadata": {
+        "original_index": 0,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q01. A cyclist riding across the wooden boardwalk."
+        },
+        "raw_line": "q01. A cyclist riding across the wooden boardwalk.",
+        "original_query_id": "q01",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q02",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "Blue trash bins, benches, and street lamps placed along the boardwalk.",
+      "metadata": {
+        "original_index": 1,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q02. Blue trash bins, benches, and street lamps placed along the boardwalk."
+        },
+        "raw_line": "q02. Blue trash bins, benches, and street lamps placed along the boardwalk.",
+        "original_query_id": "q02",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q03",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "Several people walking in pairs or small groups on the boardwalk.",
+      "metadata": {
+        "original_index": 2,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q03. Several people walking in pairs or small groups on the boardwalk."
+        },
+        "raw_line": "q03. Several people walking in pairs or small groups on the boardwalk.",
+        "original_query_id": "q03",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q04",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "A person riding a bicycle while other pedestrians are nearby.",
+      "metadata": {
+        "original_index": 3,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q04. A person riding a bicycle while other pedestrians are nearby."
+        },
+        "raw_line": "q04. A person riding a bicycle while other pedestrians are nearby.",
+        "original_query_id": "q04",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q05",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "American flags hanging near the boardwalk attractions.",
+      "metadata": {
+        "original_index": 4,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q05. American flags hanging near the boardwalk attractions."
+        },
+        "raw_line": "q05. American flags hanging near the boardwalk attractions.",
+        "original_query_id": "q05",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q06",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "When the boardwalk becomes busier, how are walkers, cyclists, and stationary visitors distributed across the scene?",
+      "metadata": {
+        "original_index": 5,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q06. When the boardwalk becomes busier, how are walkers, cyclists, and stationary visitors distributed across the scene?"
+        },
+        "raw_line": "q06. When the boardwalk becomes busier, how are walkers, cyclists, and stationary visitors distributed across the scene?",
+        "original_query_id": "q06",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q07",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "When a cyclist crosses the boardwalk, do pedestrians appear to share the same path or stay separated from the cyclist?",
+      "metadata": {
+        "original_index": 6,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q07. When a cyclist crosses the boardwalk, do pedestrians appear to share the same path or stay separated from the cyclist?"
+        },
+        "raw_line": "q07. When a cyclist crosses the boardwalk, do pedestrians appear to share the same path or stay separated from the cyclist?",
+        "original_query_id": "q07",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q08",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "During the period when a red-shirt cyclist rides across the boardwalk, what happens before and after that cyclist passes?",
+      "metadata": {
+        "original_index": 7,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q08. During the period when a red-shirt cyclist rides across the boardwalk, what happens before and after that cyclist passes?"
+        },
+        "raw_line": "q08. During the period when a red-shirt cyclist rides across the boardwalk, what happens before and after that cyclist passes?",
+        "original_query_id": "q08",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q09",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "Find a moment when several cyclists and pedestrians share the boardwalk. What is the order of movement among them?",
+      "metadata": {
+        "original_index": 8,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q09. Find a moment when several cyclists and pedestrians share the boardwalk. What is the order of movement among them?"
+        },
+        "raw_line": "q09. Find a moment when several cyclists and pedestrians share the boardwalk. What is the order of movement among them?",
+        "original_query_id": "q09",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q10",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "Across the video, does the boardwalk activity generally become busier, quieter, or fluctuate between sparse and busy moments? Use evidence from multiple periods.",
+      "metadata": {
+        "original_index": 9,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q10. Across the video, does the boardwalk activity generally become busier, quieter, or fluctuate between sparse and busy moments? Use evidence from multiple periods."
+        },
+        "raw_line": "q10. Across the video, does the boardwalk activity generally become busier, quieter, or fluctuate between sparse and busy moments? Use evidence from multiple periods.",
+        "original_query_id": "q10",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q11",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "Can the video support that pedestrians and cyclists interact directly, or only that they co-occur on the boardwalk?",
+      "metadata": {
+        "original_index": 10,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q11. Can the video support that pedestrians and cyclists interact directly, or only that they co-occur on the boardwalk?"
+        },
+        "raw_line": "q11. Can the video support that pedestrians and cyclists interact directly, or only that they co-occur on the boardwalk?",
+        "original_query_id": "q11",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q12",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "Identify a segment where a bicycle or cyclist appears near pedestrians, and explain whether the evidence supports direct interaction or only same-area co-presence.",
+      "metadata": {
+        "original_index": 11,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q12. Identify a segment where a bicycle or cyclist appears near pedestrians, and explain whether the evidence supports direct interaction or only same-area co-presence."
+        },
+        "raw_line": "q12. Identify a segment where a bicycle or cyclist appears near pedestrians, and explain whether the evidence supports direct interaction or only same-area co-presence.",
+        "original_query_id": "q12",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q13",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "When pedestrians and cyclists are visible at the same time on the boardwalk, describe their relative positions and whether either group appears to alter its movement because of the other.",
+      "metadata": {
+        "original_index": 12,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q13. When pedestrians and cyclists are visible at the same time on the boardwalk, describe their relative positions and whether either group appears to alter its movement because of the other."
+        },
+        "raw_line": "q13. When pedestrians and cyclists are visible at the same time on the boardwalk, describe their relative positions and whether either group appears to alter its movement because of the other.",
+        "original_query_id": "q13",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q14",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "Find a moment with multiple moving people on the boardwalk. Which people or objects are moving, which are stationary, and what timestamps or segments support that distinction?",
+      "metadata": {
+        "original_index": 13,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q14. Find a moment with multiple moving people on the boardwalk. Which people or objects are moving, which are stationary, and what timestamps or segments support that distinction?"
+        },
+        "raw_line": "q14. Find a moment with multiple moving people on the boardwalk. Which people or objects are moving, which are stationary, and what timestamps or segments support that distinction?",
+        "original_query_id": "q14",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q15",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "Describe a local before-and-after sequence around a cyclist appearing on the boardwalk: what is visible before the cyclist, during the cyclist's presence, and shortly afterward?",
+      "metadata": {
+        "original_index": 14,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q15. Describe a local before-and-after sequence around a cyclist appearing on the boardwalk: what is visible before the cyclist, during the cyclist's presence, and shortly afterward?"
+        },
+        "raw_line": "q15. Describe a local before-and-after sequence around a cyclist appearing on the boardwalk: what is visible before the cyclist, during the cyclist's presence, and shortly afterward?",
+        "original_query_id": "q15",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q16",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "Across several moments in the video, what recurring pattern is visible in how pedestrians use the boardwalk while cyclists pass through or appear nearby?",
+      "metadata": {
+        "original_index": 15,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q16. Across several moments in the video, what recurring pattern is visible in how pedestrians use the boardwalk while cyclists pass through or appear nearby?"
+        },
+        "raw_line": "q16. Across several moments in the video, what recurring pattern is visible in how pedestrians use the boardwalk while cyclists pass through or appear nearby?",
+        "original_query_id": "q16",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q17",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "When the scene contains both pedestrians and boardwalk landmarks such as benches, bins, lamps, or flags, how do those stable landmarks help localize the human activity?",
+      "metadata": {
+        "original_index": 16,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q17. When the scene contains both pedestrians and boardwalk landmarks such as benches, bins, lamps, or flags, how do those stable landmarks help localize the human activity?"
+        },
+        "raw_line": "q17. When the scene contains both pedestrians and boardwalk landmarks such as benches, bins, lamps, or flags, how do those stable landmarks help localize the human activity?",
+        "original_query_id": "q17",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q18",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "Can the video establish that a cyclist and pedestrians share the exact same path, or does the evidence more safely show that they occupy nearby areas of the boardwalk?",
+      "metadata": {
+        "original_index": 17,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q18. Can the video establish that a cyclist and pedestrians share the exact same path, or does the evidence more safely show that they occupy nearby areas of the boardwalk?"
+        },
+        "raw_line": "q18. Can the video establish that a cyclist and pedestrians share the exact same path, or does the evidence more safely show that they occupy nearby areas of the boardwalk?",
+        "original_query_id": "q18",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q19",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "Find a busy boardwalk moment and summarize the object-level evidence for people walking, cyclists or bicycles appearing, and stationary visitors or landmarks in the same scene.",
+      "metadata": {
+        "original_index": 18,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q19. Find a busy boardwalk moment and summarize the object-level evidence for people walking, cyclists or bicycles appearing, and stationary visitors or landmarks in the same scene."
+        },
+        "raw_line": "q19. Find a busy boardwalk moment and summarize the object-level evidence for people walking, cyclists or bicycles appearing, and stationary visitors or landmarks in the same scene.",
+        "original_query_id": "q19",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q20",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "Does the evidence show a specific person or cyclist being tracked continuously across distant parts of the video, or should the answer be limited to similar people appearing in separate moments?",
+      "metadata": {
+        "original_index": 19,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q20. Does the evidence show a specific person or cyclist being tracked continuously across distant parts of the video, or should the answer be limited to similar people appearing in separate moments?"
+        },
+        "raw_line": "q20. Does the evidence show a specific person or cyclist being tracked continuously across distant parts of the video, or should the answer be limited to similar people appearing in separate moments?",
+        "original_query_id": "q20",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    },
+    {
+      "query_id": "beach_q21",
+      "dataset": "Beach",
+      "video_id": "beach",
+      "query": "Using evidence from at least two different time periods, compare a sparse boardwalk moment with a busier one in terms of pedestrians, bicycles or cyclists, and stable background landmarks.",
+      "metadata": {
+        "original_index": 20,
+        "source_format": "text",
+        "extra_fields": {
+          "raw_line": "q21. Using evidence from at least two different time periods, compare a sparse boardwalk moment with a busier one in terms of pedestrians, bicycles or cyclists, and stable background landmarks."
+        },
+        "raw_line": "q21. Using evidence from at least two different time periods, compare a sparse boardwalk moment with a busier one in terms of pedestrians, bicycles or cyclists, and stable background landmarks.",
+        "original_query_id": "q21",
+        "query_id_source": "dataset_prefixed_original",
+        "video_id_source": "dataset_default"
+      }
+    }
+  ]
+}

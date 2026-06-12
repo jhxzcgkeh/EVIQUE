@@ -1,0 +1,327 @@
+{
+  "schema_version": "1.0",
+  "dataset": "QVHighlights",
+  "query_count": 20,
+  "queries": [
+    {
+      "query_id": "qvhighlights_001",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "A textured wall covered with many small plaques or notes.",
+      "metadata": {
+        "original_index": 0,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "1. A textured wall covered with many small plaques or notes."
+        },
+        "raw_line": "1. A textured wall covered with many small plaques or notes.",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_002",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "A warmly lit indoor dining area with patrons seated at white-tablecloth tables.",
+      "metadata": {
+        "original_index": 1,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "2. A warmly lit indoor dining area with patrons seated at white-tablecloth tables."
+        },
+        "raw_line": "2. A warmly lit indoor dining area with patrons seated at white-tablecloth tables.",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_003",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "Two people sitting at an outdoor wooden table surrounded by palm trees.",
+      "metadata": {
+        "original_index": 2,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "3. Two people sitting at an outdoor wooden table surrounded by palm trees."
+        },
+        "raw_line": "3. Two people sitting at an outdoor wooden table surrounded by palm trees.",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_004",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "A young woman holding a glass mug filled with a light green drink in a bedroom.",
+      "metadata": {
+        "original_index": 3,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "4. A young woman holding a glass mug filled with a light green drink in a bedroom."
+        },
+        "raw_line": "4. A young woman holding a glass mug filled with a light green drink in a bedroom.",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_005",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "How does the bedroom clip shift from a woman holding a green drink to laptop use, cosmetic products, and an outdoor deck view?",
+      "metadata": {
+        "original_index": 4,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "5. How does the bedroom clip shift from a woman holding a green drink to laptop use, cosmetic products, and an outdoor deck view?"
+        },
+        "raw_line": "5. How does the bedroom clip shift from a woman holding a green drink to laptop use, cosmetic products, and an outdoor deck view?",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_006",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "What visual cues show that the journey passes through both busy commercial streets and more open rural or highway areas?",
+      "metadata": {
+        "original_index": 5,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "6. What visual cues show that the journey passes through both busy commercial streets and more open rural or highway areas?"
+        },
+        "raw_line": "6. What visual cues show that the journey passes through both busy commercial streets and more open rural or highway areas?",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_007",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "Find and describe the moment matching this query: A man sitting on the driver seat of a car holding a phone and talking to the camera.",
+      "metadata": {
+        "original_index": 6,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "7. Find and describe the moment matching this query: A man sitting on the driver seat of a car holding a phone and talking to the camera."
+        },
+        "raw_line": "7. Find and describe the moment matching this query: A man sitting on the driver seat of a car holding a phone and talking to the camera.",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_008",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "Find and describe the moment matching this query: Young woman wearing a black tank top holding a big cup of tea while talking to the camera.",
+      "metadata": {
+        "original_index": 7,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "8. Find and describe the moment matching this query: Young woman wearing a black tank top holding a big cup of tea while talking to the camera."
+        },
+        "raw_line": "8. Find and describe the moment matching this query: Young woman wearing a black tank top holding a big cup of tea while talking to the camera.",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_009",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "Find and describe the moment matching this query: Woman talks to camera while carrying her dog.",
+      "metadata": {
+        "original_index": 8,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "9. Find and describe the moment matching this query: Woman talks to camera while carrying her dog."
+        },
+        "raw_line": "9. Find and describe the moment matching this query: Woman talks to camera while carrying her dog.",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_010",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "Find and describe the moment matching this query: A person sitting in a car uses or shows a red phone while speaking toward the camera.",
+      "metadata": {
+        "original_index": 9,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "10. Find and describe the moment matching this query: A person sitting in a car uses or shows a red phone while speaking toward the camera."
+        },
+        "raw_line": "10. Find and describe the moment matching this query: A person sitting in a car uses or shows a red phone while speaking toward the camera.",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_011",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "Find and describe the moment matching this query: A young woman in a bedroom holds a large drink while speaking to the camera, with personal items visible around her.",
+      "metadata": {
+        "original_index": 10,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "11. Find and describe the moment matching this query: A young woman in a bedroom holds a large drink while speaking to the camera, with personal items visible around her."
+        },
+        "raw_line": "11. Find and describe the moment matching this query: A young woman in a bedroom holds a large drink while speaking to the camera, with personal items visible around her.",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_012",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "Find and describe the moment matching this query: A woman holds or carries a small black dog indoors while interacting with the camera.",
+      "metadata": {
+        "original_index": 11,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "12. Find and describe the moment matching this query: A woman holds or carries a small black dog indoors while interacting with the camera."
+        },
+        "raw_line": "12. Find and describe the moment matching this query: A woman holds or carries a small black dog indoors while interacting with the camera.",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_013",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "Find and describe the moment matching this query: A person leads a small horse or pony inside a stable area, with the leash or surrounding equipment visible.",
+      "metadata": {
+        "original_index": 12,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "13. Find and describe the moment matching this query: A person leads a small horse or pony inside a stable area, with the leash or surrounding equipment visible."
+        },
+        "raw_line": "13. Find and describe the moment matching this query: A person leads a small horse or pony inside a stable area, with the leash or surrounding equipment visible.",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_014",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "How does the bedroom lifestyle clip progress from the woman speaking with a drink to laptop use, cosmetic items, and a view outside?",
+      "metadata": {
+        "original_index": 13,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "14. How does the bedroom lifestyle clip progress from the woman speaking with a drink to laptop use, cosmetic items, and a view outside?"
+        },
+        "raw_line": "14. How does the bedroom lifestyle clip progress from the woman speaking with a drink to laptop use, cosmetic items, and a view outside?",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_015",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "What visual evidence shows that the car-travel sequence moves from inside-the-car talking to outside road or street views?",
+      "metadata": {
+        "original_index": 14,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "15. What visual evidence shows that the car-travel sequence moves from inside-the-car talking to outside road or street views?"
+        },
+        "raw_line": "15. What visual evidence shows that the car-travel sequence moves from inside-the-car talking to outside road or street views?",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_016",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "How does the outdoor table conversation scene combine people, hand gestures, a phone, and the surrounding palm-tree setting?",
+      "metadata": {
+        "original_index": 15,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "16. How does the outdoor table conversation scene combine people, hand gestures, a phone, and the surrounding palm-tree setting?"
+        },
+        "raw_line": "16. How does the outdoor table conversation scene combine people, hand gestures, a phone, and the surrounding palm-tree setting?",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_017",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "What details indicate that the indoor dining scene is a formal or restaurant-like setting rather than a casual room?",
+      "metadata": {
+        "original_index": 16,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "17. What details indicate that the indoor dining scene is a formal or restaurant-like setting rather than a casual room?"
+        },
+        "raw_line": "17. What details indicate that the indoor dining scene is a formal or restaurant-like setting rather than a casual room?",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_018",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "How does the travel or resort clip move from a wall of plaques or notes to dining spaces and an outdoor social area?",
+      "metadata": {
+        "original_index": 17,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "18. How does the travel or resort clip move from a wall of plaques or notes to dining spaces and an outdoor social area?"
+        },
+        "raw_line": "18. How does the travel or resort clip move from a wall of plaques or notes to dining spaces and an outdoor social area?",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_019",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "How does the shopping or travel clip progress from unpacking clothes or items on a sofa to outdoor street scenes, an indoor mall-like corridor, and a final wall or sign area?",
+      "metadata": {
+        "original_index": 18,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "19. How does the shopping or travel clip progress from unpacking clothes or items on a sofa to outdoor street scenes, an indoor mall-like corridor, and a final wall or sign area?"
+        },
+        "raw_line": "19. How does the shopping or travel clip progress from unpacking clothes or items on a sofa to outdoor street scenes, an indoor mall-like corridor, and a final wall or sign area?",
+        "generated_query_id": true
+      }
+    },
+    {
+      "query_id": "qvhighlights_020",
+      "dataset": "QVHighlights",
+      "video_id": "",
+      "query": "What visual evidence indicates that the travel-themed clip moves from an airport or transportation setting to an office-like travel service area with signs, flags, or service information?",
+      "metadata": {
+        "original_index": 19,
+        "source_format": "text",
+        "extra_fields": {
+          "query_id": "",
+          "raw_line": "20. What visual evidence indicates that the travel-themed clip moves from an airport or transportation setting to an office-like travel service area with signs, flags, or service information?"
+        },
+        "raw_line": "20. What visual evidence indicates that the travel-themed clip moves from an airport or transportation setting to an office-like travel service area with signs, flags, or service information?",
+        "generated_query_id": true
+      }
+    }
+  ]
+}

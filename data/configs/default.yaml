@@ -1,0 +1,28 @@
+seed: 13
+data_root: ${EVIQUE_DATA_ROOT}
+model_root: ${EVIQUE_MODEL_ROOT}
+retrieval:
+  top_k: 18
+  budget: 18
+  token_budget: 12000
+  graph_expansion_budget: 6
+views:
+  scope: true
+  target: true
+  track: true
+  event: true
+  adaptive_event: true
+planner:
+  enabled: true
+  max_evidence: 18
+  min_confidence: 0.65
+packer:
+  strategy: importance_budgeted_mmr
+  max_evidence: 18
+  max_evidence_chars: 12000
+llm:
+  api_key_env: OPENAI_API_KEY
+  base_url_env: OPENAI_BASE_URL
+  model_env: EVIQUE_LLM_MODEL
+embedding:
+  model_env: EVIQUE_EMBEDDING_MODEL

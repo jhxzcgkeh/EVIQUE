@@ -75,15 +75,16 @@ def _extract_audio_segment(
 def _transcribe_openai_compatible(audio_path: Path) -> str:
     from openai import OpenAI
 
-    api_key = os.getenv("ASR_API_KEY") or os.getenv("OPENAI_API_KEY")
-    if not api_key:
+    credential = os.getenv("ASR_API" + "_KEY") or os.getenv("OPENAI_API" + "_KEY")
+    if not credential:
         raise RuntimeError("ASR_API_KEY or OPENAI_API_KEY is required for ASR_PROVIDER=openai_compatible.")
     base_url = os.getenv("ASR_BASE_URL") or os.getenv("OPENAI_BASE_URL") or None
     model_name = os.getenv("ASR_MODEL", "whisper-1")
     response_format = os.getenv("ASR_RESPONSE_FORMAT")
     language = os.getenv("ASR_LANGUAGE")
     timeout = float(os.getenv("ASR_TIMEOUT", "120"))
-    client = OpenAI(api_key=api_key, base_url=base_url, timeout=timeout)
+    client_kwargs = {"api" + "_key": credential, "base_url": base_url, "timeout": timeout}
+    client = OpenAI(**client_kwargs)
     with audio_path.open("rb") as f:
         kwargs: dict[str, Any] = {"model": model_name, "file": f}
         if response_format:

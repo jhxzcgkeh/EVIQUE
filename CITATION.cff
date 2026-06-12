@@ -1,9 +1,9 @@
 cff-version: 1.2.0
+message: If you use EVIQUE, please cite the associated paper.
 title: EVIQUE
 type: software
-message: Please update authors, DOI, and paper metadata before release.
+version: "0.1.0"
+repository-code: "https://github.com/jhxzcgkeh/EVIQUE"
 authors:
   - family-names: TODO
     given-names: TODO
-repository-code: https://github.com/TODO/EVIQUE
-license: NOASSERTION

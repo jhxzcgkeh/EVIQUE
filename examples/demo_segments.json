@@ -1,0 +1,24 @@
+{
+  "demo_video": {
+    "001": {
+      "time": "0-5",
+      "caption": "A red car waits near a traffic light at an intersection.",
+      "transcript": "",
+      "frame_times": [
+        0.0,
+        2.5,
+        5.0
+      ]
+    },
+    "002": {
+      "time": "5-10",
+      "caption": "The red car moves forward while a person stands on the sidewalk.",
+      "transcript": "",
+      "frame_times": [
+        5.0,
+        7.5,
+        10.0
+      ]
+    }
+  }
+}

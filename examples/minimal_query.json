@@ -1,0 +1,6 @@
+{
+  "query_id": "example_001",
+  "dataset": "Example",
+  "video_id": "demo_video",
+  "query": "Which vehicle appears near the traffic light?"
+}

@@ -1,36 +1,67 @@
 # EVIQUE
 
-EVIQUE is the cleaned ICDE/GitHub release candidate for the evidence-indexing, DB benchmark, RAG comparison, and ablation code. It keeps first-party source and small reproducibility assets, and excludes generated runs, caches, raw videos, model weights, and unredistributed third-party repositories.
+This repository is the initial public implementation of EVIQUE.
+
+EVIQUE builds multi-view video evidence indexes and retrieves compact evidence packages for question answering. This initial public code release keeps first-party method code, compact baseline-output adapters, minimal configs, and scripts for rebuilding views, running retrieval, ablations, tables, and figures.
+
+## Core Contributions
+- Scope, Target, Track, and Event views over video segment records.
+- Evidence graph construction with nodes, relations, planner, and packer.
+- Query-time retrieval with bounded graph/view expansion and evidence packaging.
+- Baseline output adapters without redistributing third-party repositories.
 
 ## Structure
-- `evique/`: core evidence indexing and retrieval package.
-- `db_benchmark/`: DB schema, adapters, registry, and metrics.
-- `rag_baselines/`: small local NaiveRAG/TextVideoRAG helpers.
-- `configs/ablation/`, `experiments/`, `scripts/`, `examples/`, `results/paper/`, `third_party/`, `docs/`.
+`evique/` contains first-party code. `scripts/` contains build/run/ablation/table/figure entrypoints. `baselines/` contains adapters, prompts, and compact examples. `data/queries/` records query slots and provenance. `results/paper/` contains compact CSV schemas.
 
 ## Install
 ```bash
-python -m venv .venv
-. .venv/bin/activate
-python -m pip install -U pip
 python -m pip install -r requirements.txt
-python -m pip install -r requirements-dev.txt
 ```
+Optional video/model dependencies are in `requirements-vision.txt`.
 
-## Smoke Test
+## Build Views
 ```bash
-python -m evique.cli.check_standalone
-python scripts/smoke/smoke_check.py
+python scripts/build_views.py --segments-json examples/demo_segments.json --output-dir outputs/demo_index
 ```
-This smoke path is CPU-only and does not call paid APIs.
 
-## Reproduction Entrypoints
+## Run EVIQUE
 ```bash
-python experiments/db/run_baseline_comparison.py --help
-python experiments/rag/run_comparison.py --help
-python experiments/ablation/run_evique_ablation.py --help
+python scripts/run_evique.py --index-dir outputs/demo_index --query-file examples/minimal_query.json
 ```
-Full reproduction requires external datasets, model weights, and API credentials described in `DATASETS.md`, `MODELS.md`, and `.env.example`.
 
-## Known Release Blockers
-Project license is pending; final paper result CSVs were not present in the source working tree; third-party license/commit review is still required.
+## Run Ablation
+```bash
+python scripts/run_ablation.py --index-dir outputs/demo_index --query-file examples/minimal_query.json
+```
+
+## Reproduce Tables And Figures
+```bash
+python scripts/reproduce_tables.py
+python scripts/reproduce_figures.py
+```
+
+Raw videos, checkpoints, large indexes, generated runs, and API keys are not distributed. Third-party baseline implementations are not redistributed. Only result adapters, shared prompts, and compact format examples are included.
+
+## License
+
+The project license is currently pending. Until an explicit open-source license is added, no additional rights to use, modify, or redistribute this source code are granted beyond those provided by applicable law.
+
+## Citation
+See `CITATION.cff`; update authors and paper metadata before public release.
+
+## Query Data
+
+The complete query text set contains 96 queries: 30 for Warsaw, 25 for Bellevue, 20 for QVHighlights, and 21 for Beach. Warsaw, Bellevue, and Beach are ready single-video query sets.
+
+The QVHighlights query-to-video mapping was not available in the source artifacts used to prepare this initial release. Therefore, the QVHighlights query texts are included, but the full QVHighlights experiment cannot yet be reproduced from this repository alone. QVHighlights remains marked `missing_video_id` in `results/paper/query_manifest.csv`, with zero mapped query video IDs.
+
+```python
+from evique.utils.query_io import load_query_file
+
+dataset = load_query_file("data/queries/warsaw.json")
+print(dataset.query_count)
+```
+
+## Initial Limitations
+
+Verified full paper result CSVs are not present in the current local source workspace. QVHighlights query text is included, but source-video metadata remains unresolved.

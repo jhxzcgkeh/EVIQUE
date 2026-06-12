@@ -1,0 +1,4 @@
+metrics: [comprehensiveness, empowerment, trustworthiness, depth, density, overall]
+judge:
+  prompt: baselines/prompts/quantitative_judge.md
+  model_env: EVIQUE_JUDGE_MODEL
