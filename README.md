@@ -35,22 +35,12 @@ python scripts/run_evique.py   --index-dir outputs/demo_index   --query-file exa
 The query file should contain the natural-language question and the required query metadata. EVIQUE retrieves relevant evidence, expands connected evidence through the evidence graph, and produces a compact evidence package for answer generation.
 
 
-### 3. Reproduce tables and figures
 
-Generate the compact paper tables and figures from the files under `results/paper/`:
-
-```bash
-python scripts/reproduce_tables.py
-python scripts/reproduce_figures.py
-```
-
-### 4. View command-line options
+### 3. View command-line options
 
 ```bash
 python scripts/build_views.py --help
 python scripts/run_evique.py --help
-python scripts/reproduce_tables.py --help
-python scripts/reproduce_figures.py --help
 ```
 
 ## Citation
