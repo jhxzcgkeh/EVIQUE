@@ -1,6 +1,42 @@
-License Pending
+MIT License
 
-The license for this project is currently being finalized.
-Until an explicit open-source license is added, no additional rights to use,
-modify, or redistribute this source code are granted beyond those provided by
-applicable law.
+Copyright (c) 2026 EVIQUE Authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+THIRD-PARTY NOTICE
+
+This license applies only to the first-party EVIQUE source code and repository
+documentation authored by the EVIQUE project contributors, unless a file or
+directory states otherwise.
+
+Third-party software libraries, models, model weights, datasets, annotations,
+baseline implementations, and other external materials are not relicensed
+under the MIT License by this repository. They remain subject to their own
+licenses, usage restrictions, attribution requirements, and terms.
+
+The repository may provide interfaces, result adapters, prompts, configuration
+examples, or provenance records for third-party systems. Such compatibility
+materials do not grant rights to the corresponding third-party implementations
+or assets.
+
+Users are responsible for identifying and complying with all licenses that
+apply to the external components they install, download, access, or use with
+EVIQUE.
