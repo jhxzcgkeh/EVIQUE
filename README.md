@@ -14,16 +14,57 @@ python -m pip install -r requirements.txt
 
 ## Usage
 
-Build the evidence views:
+### 1. Build evidence views
+
+Prepare the segment-level input and build the Scope, Target, Track, and Event views:
 
 ```bash
 python scripts/build_views.py   --segments-json examples/demo_segments.json   --output-dir outputs/demo_index
 ```
 
-Run EVIQUE:
+The generated index is written to `outputs/demo_index`.
+
+### 2. Run EVIQUE
+
+Run a query over the generated evidence index:
 
 ```bash
 python scripts/run_evique.py   --index-dir outputs/demo_index   --query-file examples/minimal_query.json
+```
+
+The query file should contain the natural-language question and the required query metadata. EVIQUE retrieves relevant evidence, expands connected evidence through the evidence graph, and produces a compact evidence package for answer generation.
+
+### 3. Run ablation experiments
+
+Run the public ablation entry point with the same index and query input:
+
+```bash
+python scripts/run_ablation.py   --index-dir outputs/demo_index   --query-file examples/minimal_query.json
+```
+
+Available options can be inspected with:
+
+```bash
+python scripts/run_ablation.py --help
+```
+
+### 4. Reproduce tables and figures
+
+Generate the compact paper tables and figures from the files under `results/paper/`:
+
+```bash
+python scripts/reproduce_tables.py
+python scripts/reproduce_figures.py
+```
+
+### 5. View command-line options
+
+```bash
+python scripts/build_views.py --help
+python scripts/run_evique.py --help
+python scripts/run_ablation.py --help
+python scripts/reproduce_tables.py --help
+python scripts/reproduce_figures.py --help
 ```
 
 ## Citation
